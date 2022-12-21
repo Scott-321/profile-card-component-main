@@ -1,0 +1,164 @@
+
+/* Resets */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+ 
+  * {
+    margin: 0;
+  }
+
+
+  html, body {
+    height: 100%;
+  }
+
+ 
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+ 
+
+ li {
+    list-style: none;
+ }
+
+
+ a {
+    text-decoration: none;
+ }
+
+
+ /* Custom Properties */
+
+:root {
+  --darkcyan: hsl(185, 75%, 39%);
+  --verydarkdesaturatedblue: hsl(229, 23%, 23%);
+  --darkgrayishblue: hsl(227, 10%, 46%);
+}
+
+
+/* utility class */
+
+.darkgrayishblue {
+  color: var(--darkgrayishblue);
+}
+
+/* Specific Styling */
+
+body {
+/* Layout */
+  position: relative;
+
+/* Typography */
+  color: var(--verydarkdesaturatedblue);
+  font-family: 'Kumbh Sans', sans-serif;
+
+/* Background Images */
+  background-color:hsl(185, 75%, 39%);
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: right 52vw bottom 40vh, left 50vw top 50vh;  
+}
+
+
+main {
+  height: inherit;
+  display: grid;
+  place-content: center;
+}
+
+/* Headings and Text */
+
+h1 {
+  margin-top: -2em;
+  font-size: 1rem;
+}
+
+
+.h1-26 {
+  font-weight: 400;
+}
+
+
+h2 {
+  font-size: 1rem;
+}
+
+
+h2 + p  {
+  letter-spacing: .1em;
+  font-size: .7rem;
+}
+
+
+.card {
+/* Layout */
+  text-align: center;
+  width: 350px;
+
+/* Container Decoration */
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+
+.card__top-background {
+  position: relative;
+  border-radius: 10px 10px 0 0;
+}
+
+
+.card__profile-photo {
+  /* Layout */
+  position: relative;
+  top: -48px;
+  margin: 0 auto;
+  text-align: center;
+
+  /* Container Decoration */
+  border-radius: 50%;
+  border: solid white 5px;
+
+}
+
+
+.london {
+  margin-top: .4em;
+  margin-bottom: 2em;
+  font-size: .85rem;
+}
+
+
+.card__bottom {
+/* Layout */
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5em 1.25em 1.5em 1.25em;
+
+/* Typography */
+  font-size: 1rem;
+
+/* Container Decoration */
+  border-top: lightgrey solid 1px;
+}
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 3em;
+  text-align: center;
+  width: 100%;
+  font-size: .8rem;
+}
