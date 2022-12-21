@@ -7,7 +7,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -23,12 +22,6 @@ To build out a profile card component and get it looking as close to the design 
 ### Screenshot
 
 ![Screenshot](./Screenshot%20Frontend%20Mentor%20Profile%20card%20component.png)
-
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
